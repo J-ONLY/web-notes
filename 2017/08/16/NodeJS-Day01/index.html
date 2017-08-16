@@ -94,16 +94,17 @@
 
 
 
-<meta name="description" content="一步一个脚印">
-<meta property="og:type" content="website">
-<meta property="og:title" content="WEB NOTES">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta name="description" content="Node的基本概念Node能做服务端块，给浏览器提供数据，服务端的渲染，数据统计。相关国外论坛：www.stackoverflow.com   搭建Node开发环境【需要掌握】node.exe/Node.msi 软件安装安装方式1：直接双击安装某个版本（不要安装在中文目录）。安装方式2：通过nvm node version manager来安装【需要了解】。1234nvm指令：1. nvm lis">
+<meta property="og:type" content="article">
+<meta property="og:title" content="NodeJs-Day01 NodeJS服务如何开发">
+<meta property="og:url" content="http://yoursite.com/2017/08/16/NodeJS-Day01/index.html">
 <meta property="og:site_name" content="WEB NOTES">
-<meta property="og:description" content="一步一个脚印">
+<meta property="og:description" content="Node的基本概念Node能做服务端块，给浏览器提供数据，服务端的渲染，数据统计。相关国外论坛：www.stackoverflow.com   搭建Node开发环境【需要掌握】node.exe/Node.msi 软件安装安装方式1：直接双击安装某个版本（不要安装在中文目录）。安装方式2：通过nvm node version manager来安装【需要了解】。1234nvm指令：1. nvm lis">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2017-08-16T13:59:18.312Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="WEB NOTES">
-<meta name="twitter:description" content="一步一个脚印">
+<meta name="twitter:title" content="NodeJs-Day01 NodeJS服务如何开发">
+<meta name="twitter:description" content="Node的基本概念Node能做服务端块，给浏览器提供数据，服务端的渲染，数据统计。相关国外论坛：www.stackoverflow.com   搭建Node开发环境【需要掌握】node.exe/Node.msi 软件安装安装方式1：直接双击安装某个版本（不要安装在中文目录）。安装方式2：通过nvm node version manager来安装【需要了解】。1234nvm指令：1. nvm lis">
 
 
 
@@ -132,13 +133,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/"/>
+  <link rel="canonical" href="http://yoursite.com/2017/08/16/NodeJS-Day01/"/>
 
 
 
 
 
-  <title>WEB NOTES</title>
+  <title>NodeJs-Day01 NodeJS服务如何开发 | WEB NOTES</title>
   
 
 
@@ -163,9 +164,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-   page-home 
- ">
+  <div class="container sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -268,9 +267,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -300,9 +299,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2017/08/16/NodeJS-Day01/" itemprop="url">NodeJs-Day01 NodeJS服务如何开发</a></h1>
+          <h1 class="post-title" itemprop="name headline">NodeJs-Day01 NodeJS服务如何开发</h1>
         
 
         <div class="post-meta">
@@ -352,9 +349,7 @@
       
 
       
-        
-          
-            <h4 id="Node的基本概念"><a href="#Node的基本概念" class="headerlink" title="Node的基本概念"></a>Node的基本概念</h4><p>Node能做服务端块，给浏览器提供数据，服务端的渲染，数据统计。<br>相关国外论坛：www.stackoverflow.com  </p>
+        <h4 id="Node的基本概念"><a href="#Node的基本概念" class="headerlink" title="Node的基本概念"></a>Node的基本概念</h4><p>Node能做服务端块，给浏览器提供数据，服务端的渲染，数据统计。<br>相关国外论坛：www.stackoverflow.com  </p>
 <h4 id="搭建Node开发环境【需要掌握】"><a href="#搭建Node开发环境【需要掌握】" class="headerlink" title="搭建Node开发环境【需要掌握】"></a>搭建Node开发环境【需要掌握】</h4><p>node.exe/Node.msi 软件安装<br>安装方式1：直接双击安装某个版本（不要安装在中文目录）。<br>安装方式2：通过nvm node version manager来安装【需要了解】。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">nvm指令：</div><div class="line">1. nvm list ==&gt;查看当前安装了哪些node版本。</div><div class="line">2. nvm install 版本号 ==&gt;安装相关版本。</div><div class="line">3. nvm uninstall 版本号==&gt;卸载相关版本。</div></pre></td></tr></table></figure></p>
 <h4 id="设置系统环境变量步骤"><a href="#设置系统环境变量步骤" class="headerlink" title="设置系统环境变量步骤"></a>设置系统环境变量步骤</h4><ol>
 <li>拷贝可执行文件所在的目录。</li>
@@ -400,8 +395,6 @@
 <h4 id="字符串操作的方法"><a href="#字符串操作的方法" class="headerlink" title="字符串操作的方法"></a>字符串操作的方法</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">优点：简化es6中字符串的操作</div></pre></td></tr></table></figure>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">includes作用：返回boolean</div><div class="line">startsWith作用：判断字符串是否以什么开头</div><div class="line">endsWith作用：判断字符串以什么结尾</div></pre></td></tr></table></figure>
 
-          
-        
       
     </div>
     
@@ -418,12 +411,12 @@
       
 
       
+      
+      
 
       
 
       
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -433,10 +426,11 @@
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -444,6 +438,10 @@
 
 
           
+  <div class="comments" id="comments">
+    
+  </div>
+
 
         </div>
         
@@ -464,8 +462,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/pic.gif"
@@ -509,6 +516,22 @@
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#Node的基本概念"><span class="nav-number">1.</span> <span class="nav-text">Node的基本概念</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#搭建Node开发环境【需要掌握】"><span class="nav-number">2.</span> <span class="nav-text">搭建Node开发环境【需要掌握】</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#设置系统环境变量步骤"><span class="nav-number">3.</span> <span class="nav-text">设置系统环境变量步骤</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#系统环境变量的执行过程"><span class="nav-number">4.</span> <span class="nav-text">系统环境变量的执行过程</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#REPL-交互解释器-环境"><span class="nav-number">5.</span> <span class="nav-text">REPL(交互解释器)环境</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#代码测试步骤"><span class="nav-number">6.</span> <span class="nav-text">代码测试步骤</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#前端中有哪些模块化开发的规范以及实现方案"><span class="nav-number">7.</span> <span class="nav-text">前端中有哪些模块化开发的规范以及实现方案</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#模块化的开发的好处"><span class="nav-number">8.</span> <span class="nav-text">模块化的开发的好处</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Node中有哪些模块"><span class="nav-number">9.</span> <span class="nav-text">Node中有哪些模块.</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#NodeJS对核心模块（http-url）"><span class="nav-number">10.</span> <span class="nav-text">NodeJS对核心模块（http,url）</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#HTTP模块"><span class="nav-number">10.1.</span> <span class="nav-text">HTTP模块</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#URl模块"><span class="nav-number">10.2.</span> <span class="nav-text">URl模块</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#let-amp-const"><span class="nav-number">11.</span> <span class="nav-text">let&const</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#字符串操作的方法"><span class="nav-number">12.</span> <span class="nav-text">字符串操作的方法</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -622,10 +645,10 @@
   
 
   
-    <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
 <script type="text/javascript" src="/js/src/post-details.js?v=5.1.2"></script>
 
-  
+
 
   
 
