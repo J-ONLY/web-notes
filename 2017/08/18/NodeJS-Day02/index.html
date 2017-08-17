@@ -94,16 +94,17 @@
 
 
 
-<meta name="description" content="一步一个脚印">
-<meta property="og:type" content="website">
+<meta name="description" content="##上一天课程内容回顾 REPL开启node.exe，操作系统给它分配一块独立的内存的空间，这块空间称之为REPL环境。 HTTP模块###作用：开启web服务，供浏览器访问。 ###使用步骤1.导入http模块2.创建server模块3.请求、处理、响应4.启动 ##URL模块 ###作用：将url字符串转化成js对象 ###注意点：url.parse(url字符串)，如果不接第二个参数，获取的">
+<meta property="og:type" content="article">
 <meta property="og:title" content="WEB NOTES">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:url" content="http://yoursite.com/2017/08/18/NodeJS-Day02/index.html">
 <meta property="og:site_name" content="WEB NOTES">
-<meta property="og:description" content="一步一个脚印">
+<meta property="og:description" content="##上一天课程内容回顾 REPL开启node.exe，操作系统给它分配一块独立的内存的空间，这块空间称之为REPL环境。 HTTP模块###作用：开启web服务，供浏览器访问。 ###使用步骤1.导入http模块2.创建server模块3.请求、处理、响应4.启动 ##URL模块 ###作用：将url字符串转化成js对象 ###注意点：url.parse(url字符串)，如果不接第二个参数，获取的">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2017-08-17T16:32:03.709Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="WEB NOTES">
-<meta name="twitter:description" content="一步一个脚印">
+<meta name="twitter:description" content="##上一天课程内容回顾 REPL开启node.exe，操作系统给它分配一块独立的内存的空间，这块空间称之为REPL环境。 HTTP模块###作用：开启web服务，供浏览器访问。 ###使用步骤1.导入http模块2.创建server模块3.请求、处理、响应4.启动 ##URL模块 ###作用：将url字符串转化成js对象 ###注意点：url.parse(url字符串)，如果不接第二个参数，获取的">
 
 
 
@@ -132,13 +133,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/"/>
+  <link rel="canonical" href="http://yoursite.com/2017/08/18/NodeJS-Day02/"/>
 
 
 
 
 
-  <title>WEB NOTES</title>
+  <title> | WEB NOTES</title>
   
 
 
@@ -163,9 +164,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-   page-home 
- ">
+  <div class="container sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -268,9 +267,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -300,9 +299,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2017/08/18/NodeJS-Day02/" itemprop="url">未命名</a></h1>
+          <h1 class="post-title" itemprop="name headline"></h1>
         
 
         <div class="post-meta">
@@ -352,9 +349,7 @@
       
 
       
-        
-          
-            <p>##上一天课程内容回顾</p>
+        <p>##上一天课程内容回顾</p>
 <h2 id="REPL"><a href="#REPL" class="headerlink" title="REPL"></a>REPL</h2><p>开启node.exe，操作系统给它分配一块独立的内存的空间，这块空间称之为REPL环境。</p>
 <h2 id="HTTP模块"><a href="#HTTP模块" class="headerlink" title="HTTP模块"></a>HTTP模块</h2><p>###作用：<br>开启web服务，供浏览器访问。</p>
 <p>###使用步骤<br>1.导入http模块<br>2.创建server模块<br>3.请求、处理、响应<br>4.启动</p>
@@ -408,8 +403,6 @@
 <p>####注意<br>1.在导入自定义模块的时候，必须写全我们要导入的自定义模块的路径。<br>2.暴露出去的是什么，别人导入的就是什么。<br>3.如果我们只需要导出唯一一个成员，那么使用module.exports = 导出的唯一成员。<br>4.如果我们导出多个，那么我们就导出一个对象：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">module.exports = &#123;</div><div class="line">  属性A：值A</div><div class="line">  属性B：值B</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
 <p>###自定义模块的思路<br>1.线写自己的业务逻辑代码，然后使用module.expoets={}，将外界需要的东西暴露出去。<br>2.当我们需要使用一个自定义模块的时候，通过require导入(一定要把自定义模块的路径写全)</p>
 
-          
-        
       
     </div>
     
@@ -426,176 +419,28 @@
       
 
       
-
-      
-
       
       
-        <div class="post-eof"></div>
+
       
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/08/16/NodeJS-Day01/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="JONLY">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/pic.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="WEB NOTES">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2017/08/16/NodeJS-Day01/" itemprop="url">NodeJs-Day01 NodeJS服务如何开发</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
             
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-08-16T21:46:52+08:00">
-                2017-08-16
-              </time>
+              <a href="/2017/08/16/NodeJS-Day01/" rel="next" title="NodeJs-Day01 NodeJS服务如何开发">
+                <i class="fa fa-chevron-left"></i> NodeJs-Day01 NodeJS服务如何开发
+              </a>
             
+          </div>
 
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
             
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
+          </div>
         </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            <h4 id="Node的基本概念"><a href="#Node的基本概念" class="headerlink" title="Node的基本概念"></a>Node的基本概念</h4><p>Node能做服务端块，给浏览器提供数据，服务端的渲染，数据统计。<br>相关国外论坛：www.stackoverflow.com  </p>
-<h4 id="搭建Node开发环境【需要掌握】"><a href="#搭建Node开发环境【需要掌握】" class="headerlink" title="搭建Node开发环境【需要掌握】"></a>搭建Node开发环境【需要掌握】</h4><p>node.exe/Node.msi 软件安装<br>安装方式1：直接双击安装某个版本（不要安装在中文目录）。<br>安装方式2：通过nvm node version manager来安装【需要了解】。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">nvm指令：</div><div class="line">1. nvm list ==&gt;查看当前安装了哪些node版本。</div><div class="line">2. nvm install 版本号 ==&gt;安装相关版本。</div><div class="line">3. nvm uninstall 版本号==&gt;卸载相关版本。</div></pre></td></tr></table></figure></p>
-<h4 id="设置系统环境变量步骤"><a href="#设置系统环境变量步骤" class="headerlink" title="设置系统环境变量步骤"></a>设置系统环境变量步骤</h4><ol>
-<li>拷贝可执行文件所在的目录。</li>
-<li>打开系统属性&gt;高级系统设置&gt;高级&gt;环境变量&gt;系统变量。</li>
-<li>必须重启cmd。</li>
-</ol>
-<h4 id="系统环境变量的执行过程"><a href="#系统环境变量的执行过程" class="headerlink" title="系统环境变量的执行过程"></a>系统环境变量的执行过程</h4><ol>
-<li>首先在当前目录下去找相关文件，如果有，直接打开，如果没有，就去系统环境变量里面去找。</li>
-<li>在系统环境变量中，去查找相关文件路径，如果找到就打开，如果在系统变量中没找到，就报不是内部或外部指令。</li>
-<li>系统环境变量类似于“桌面快捷方式”。</li>
-</ol>
-<h4 id="REPL-交互解释器-环境"><a href="#REPL-交互解释器-环境" class="headerlink" title="REPL(交互解释器)环境"></a>REPL(交互解释器)环境</h4><ol>
-<li>交互式解释器(REPL)既可以作为一个堵路的程序运行，也可以很容易地包含在其他程序中作为整体程序的一部分使用。REPL为运行JavaScript脚本与查看运行结果提供了一种交互方式，通常REPL交互方式可以用于调试、测试以及实验某种想法。</li>
-<li>启动了一个应用程序之后，操作系统会给这个应用程序分配内存。</li>
-<li>开启：输入node启动node.exe，开启REPL环境。</li>
-<li>关闭：方式1：连按两次ctrl+c；方式2：在终端命令行输入.exit。</li>
-</ol>
-<h4 id="代码测试步骤"><a href="#代码测试步骤" class="headerlink" title="代码测试步骤"></a>代码测试步骤</h4><ol>
-<li>把我们自己写好的业务逻辑，放入一个js文件中。</li>
-<li>切换到我们项目所在的目录。</li>
-<li>直接使用node要执行的js文件，这是看到运行效果。<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">注意：当在终端里面输入node xx.js时，其实内部是</div><div class="line">1.开启REPL(启动node.exe)</div><div class="line">2.读取xx.js中的内容，放在REPL去解释执行，把结果输出来</div><div class="line">3.执行完毕后，自动退出REPL环境，释放资源</div></pre></td></tr></table></figure>
-</li>
-</ol>
-<h4 id="前端中有哪些模块化开发的规范以及实现方案"><a href="#前端中有哪些模块化开发的规范以及实现方案" class="headerlink" title="前端中有哪些模块化开发的规范以及实现方案"></a>前端中有哪些模块化开发的规范以及实现方案</h4><p>浏览器端&amp;服务端：</p>
-<ul>
-<li>Node规范：CommonJS   同步请求，比较早期一个模块化开发规范，既可用于服务端，也可用于浏览器。<br>浏览器：</li>
-<li>seaJS规范：CMD(Common Module Definition)    同步请求  </li>
-<li>requireJS规范：AMD(Asynchronous Module Definition)   异步请求</li>
-</ul>
-<h4 id="模块化的开发的好处"><a href="#模块化的开发的好处" class="headerlink" title="模块化的开发的好处"></a>模块化的开发的好处</h4><ol>
-<li>容易维护</li>
-<li>复用率高</li>
-<li>避免全局变量名污染</li>
-</ol>
-<h4 id="Node中有哪些模块"><a href="#Node中有哪些模块" class="headerlink" title="Node中有哪些模块."></a>Node中有哪些模块.</h4><p>参考：<a href="https://nodejs.org/dist/latest-v6.x/docs/api/" target="_blank" rel="external">https://nodejs.org/dist/latest-v6.x/docs/api/</a><br>核心模块：一般是指NodeJS提供的模块<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">http模块          网页相关</div><div class="line">URL模块           URL相关</div><div class="line">Path模块          路径相关</div><div class="line">QueryString模块   请求的参数相关</div></pre></td></tr></table></figure></p>
-<p>File System  文件操作</p>
-<h4 id="NodeJS对核心模块（http-url）"><a href="#NodeJS对核心模块（http-url）" class="headerlink" title="NodeJS对核心模块（http,url）"></a>NodeJS对核心模块（http,url）</h4><h5 id="HTTP模块"><a href="#HTTP模块" class="headerlink" title="HTTP模块"></a>HTTP模块</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line">使用步骤说明：</div><div class="line">1.导入http模块</div><div class="line">需要使用到一个关键字，require(&quot;http&quot;)</div><div class="line">	var http = require(&quot;http&quot;)	</div><div class="line">2.使用导入进来的http模块(对象)，创建一个服务</div><div class="line">	var server = http.createServer()</div><div class="line">3.监听浏览器请求，处理和响应</div><div class="line">	server.on(&quot;request&quot;,function(request,response)&#123;</div><div class="line">      	response.end(&quot;Hellow!&quot;)</div><div class="line">	&#125;)</div><div class="line">4.开启上面创建好的服务</div><div class="line">	server.listen(9696,&quot;192.168.72.81&quot;,function(err)&#123;</div><div class="line">      if(err)&#123;cosole.log(err)&#125;;</div><div class="line">      console.log(&quot;start success!&quot;)</div><div class="line">	&#125;)</div><div class="line">注意：如果改了源代码，必须退出REPL,然后再重新运行代码才能起作用。</div></pre></td></tr></table></figure>
-<h5 id="URl模块"><a href="#URl模块" class="headerlink" title="URl模块"></a>URl模块</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div></pre></td><td class="code"><pre><div class="line">使用步骤说明</div><div class="line">1.导入http模块和url模块</div><div class="line">	var http = require(&quot;http&quot;)</div><div class="line">	var url = require(&quot;url&quot;)</div><div class="line">2.创建服务</div><div class="line">	var server = http.createServer();</div><div class="line">3.请求、处理、响应</div><div class="line">	server.on(&quot;request&quot;,function(request,response)&#123;</div><div class="line">      	var urlString = request.url</div><div class="line">      	var urlObj = url.parse(urlString,true)</div><div class="line">      	var pathname  = urlObj.pathname</div><div class="line">      	response.end(&quot;返回&quot;)</div><div class="line">	&#125;)</div><div class="line">4.启动</div><div class="line">serverlisten(9696,&quot;127.0.0.1&quot;,function(err)&#123;</div><div class="line">  	if(err)&#123;console.log(err)&#125;;</div><div class="line">  	console.log(&quot;start success&quot;)</div><div class="line">&#125;)</div></pre></td></tr></table></figure>
-<h4 id="let-amp-const"><a href="#let-amp-const" class="headerlink" title="let&amp;const"></a>let&amp;const</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">定义变量/对象。</div></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">let相当于var。</div></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">const定义常量，定义的东西不能改。</div></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">实际开发中：</div><div class="line">1.一般情况下，当我我们定义好了之后的值，不需要更改的时候，推荐使用const，常量效率高.</div><div class="line">2.如果定义的之后，之后需要改，那就必须使用let定义</div></pre></td></tr></table></figure>
-<h4 id="字符串操作的方法"><a href="#字符串操作的方法" class="headerlink" title="字符串操作的方法"></a>字符串操作的方法</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">优点：简化es6中字符串的操作</div></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">includes作用：返回boolean</div><div class="line">startsWith作用：判断字符串是否以什么开头</div><div class="line">endsWith作用：判断字符串以什么结尾</div></pre></td></tr></table></figure>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -605,10 +450,11 @@
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -616,6 +462,10 @@
 
 
           
+  <div class="comments" id="comments">
+    
+  </div>
+
 
         </div>
         
@@ -636,8 +486,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/pic.gif"
@@ -681,6 +540,22 @@
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#REPL"><span class="nav-number">1.</span> <span class="nav-text">REPL</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#HTTP模块"><span class="nav-number">2.</span> <span class="nav-text">HTTP模块</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#HTTP协议"><span class="nav-number">3.</span> <span class="nav-text">HTTP协议</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#fs模块"><span class="nav-number">4.</span> <span class="nav-text">fs模块</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -794,10 +669,10 @@
   
 
   
-    <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
 <script type="text/javascript" src="/js/src/post-details.js?v=5.1.2"></script>
 
-  
+
 
   
 
